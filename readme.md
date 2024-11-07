@@ -6,6 +6,14 @@ I'm Ylldrit Miftari, currently pursuing a degree in Computer Science. My main ar
 
 ## Projects
 
+### C++ Text Adventure Game
+<ul>
+  <li><b>Description</b>: A text-based adventure game where players navigate through a story by making choices that affect the game's outcome.</li>
+  <li><b>Key Concepts</b>: Game development, interactive storytelling, input handling.</li>  
+  <li><b>Technologies</b>: C++, command-line interface.</li>
+  <li><b>Link</b>: <a href = "https://github.com/Ylldrit27/portfolio/tree/main/text-adventure-game">C++ Text Adventure Game</a></li>
+</ul>
+
 ### Robot Simulation in a Console Application
 <ul>
   <li><b>Description</b>: A console-based simulation environment that models a robotic arena where robots interact and follow programmed paths.</li>

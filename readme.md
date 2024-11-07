@@ -11,5 +11,5 @@ I'm Ylldrit Miftari, currently pursuing a degree in Computer Science. My main ar
   <li><b>Description</b>: A simulation environment that models a robotic arena where robots interact and follow programmed paths.</li>
   <li><b>Key Concepts</b>: Object-oriented programming, simulation, file handling.</li>  
   <li><b>Technologies</b>: Java, 2D arrays, file I/O.</li>
-  <li><b>Link</b>: </li>
+  <li><b>Link</b>: [Robot Simulation in a Console Interface](https://github.com/Ylldrit27/portfolio/tree/main/ConsoleApplication/src/RobotSim)</li>
 </ul>

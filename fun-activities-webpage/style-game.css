@@ -1,0 +1,35 @@
+/* Styling the game webpage*/
+/* Created by: ChatGPT */
+/* Modified by: Ylldrit Miftari */
+/* Student Number: 32004724 */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+}

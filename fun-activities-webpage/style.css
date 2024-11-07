@@ -1,0 +1,178 @@
+/* CSS file created and modified by: Ylldrit Miftari */
+/* Student Number: 32004724 */
+
+
+/* Styling the entire page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #87CEEB; /* Sky Blue */
+}
+
+/* HEADER Section */
+
+/* Styling the logo */
+#header img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px; /* Pushes the nav menu to the right */
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+/* Styling the navigation menu (the buttons)*/
+#header button {
+    margin-left: 20px; /* Creates space between the buttons */
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+/* Nav buttons change color when hovered */
+#header button:hover{
+    background-color: rgb(202, 200, 200);
+    color: black;
+}
+
+/* CONTENT Section */
+
+/* Positioning the content section */
+#content {
+    margin: 20px;
+}
+
+/* Styling the quiz */
+#quiz {
+    font-family: Arial, sans-serif;
+    padding-bottom: 2px;
+}
+
+#quiz p {
+    text-align: left;
+    margin-left: 32%;
+}
+
+#quiz input, select {
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+/* Styling the submit form button*/
+#submit {
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: solid 2px;
+    font-weight: bold;
+    background-color: rgb(105, 199, 105);
+}
+
+#submit:hover {
+    background-color: rgb(84, 164, 84); 
+    border: solid 2px;
+}
+
+/* Styling the game section */
+.game button{
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.game button:hover {
+    background-color: rgb(230, 150, 1);
+    border: solid 3px black;
+}
+
+/* Positioning the coloring images */
+.coloringImages {
+    margin-left: 32%;
+}
+
+.coloringImages img{
+    border: solid black;
+    width: 230px;
+    height: 230px;
+}
+
+.colorElephant {
+    width: 49%;
+    height: 49%;
+}
+
+.colorRedPanda {
+    width: 49%;
+    height: 49%;
+}
+
+.colorTurtle {
+    width: 49%;
+    height: 49%;
+}
+
+/* FOOTER Section */
+
+/*Styling the whole footer*/
+#footer {
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+/*Styling the company name & slogan*/
+.slogan {
+    padding-top: 5px;
+}
+
+/* Styling the donate button */
+#donate {
+    background-color: #FAFA33;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+}
+
+#donate:hover {
+    background-color: #d2d22a;
+    border: solid;
+}
+
+/* Styling the social media icons */
+.social-media {
+    text-align: right;
+    margin-right: 100px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.social-media img:hover {
+    background-color: grey;
+    border-radius: 8px;
+}
+
+/* Styling the information e.g. email, privacy policy, T&Cs */
+.information {
+    margin-left: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+.information a {
+    color: black;
+    padding: 10px;
+}
+
+.information a:hover {
+    color: blue;
+}

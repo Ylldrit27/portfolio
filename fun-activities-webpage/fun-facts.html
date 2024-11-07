@@ -1,0 +1,158 @@
+<!-- This is the code for the fun facts and activities webpage -->
+<!-- HTML Document containing some JavaScript code and link to CSS file -->
+<!-- Created and modified by: Ylldrit Miftari -->
+<!-- Student Number: 32004724 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is where the title of the homepage appears in the tab -->
+    <title>Fun Facts & Activities</title>
+    <!-- Adding a favicon to the website -->
+    <link rel="icon" type="image/x-icon" href="images/wildlife-company-logo.jpg">
+    <!-- Linking CSS to HTML -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <!-- This is the header section -->
+        <a href=""><img src="images/wildlife-company-logo.jpg" alt="logo" title="WildLife Awareness Logo"></a>
+        <a href=""><button>Home</button></a>
+        <a href=""><button>Our animals</button></a>
+        <a href=""><button>Conservation</button></a>
+        <a href=""><button>Fun Facts & Activities</button></a>
+        <a href=""><button>Get involved</button></a>
+    </div>
+    <div id="content">
+        <!-- This is the content section -->
+        <h1>🐾 Fun Facts & Activities</h1>
+            <!-- This is the quiz -->
+            <div id="quiz">
+                <h2>🐾 Fill in our form!</h2>
+                <!-- The quiz questions -->
+                <p>1. What's your name? <input type="text" id="name" required></p>
+                <p>2. What country are you from? <input type="text" id="country"></p>
+                <p>3. Which animal do you like the most? 
+                <select id="choice">
+                    <option value="African forest elephant">A) African forest elephant</option>
+                    <option value="Red Panda">B) Red Panda</option>
+                    <option value="Sea Turtle">C) Sea Turtle</option>
+                </select>
+                </p>
+                <p>4. Tell us something new you found out when browsing this website: <input type="text" id="discovery"></p>
+                <p>5. Would you recommend this site to others?
+                    <select id="choice">
+                        <option value="Yes">A) Yes</option>
+                        <option value="No">B) No</option>
+                        <option value="Unsure">C) Unsure</option>
+                    </select>
+                </p>
+                <button id="submit">Submit</button>
+            </div>
+            <div id="message" style="display: none;">
+                <p>Thank you for taking part in our form!</p>
+            </div>
+        <script>
+            // JavaScript for handling the quiz submission
+            document.getElementById('submit').addEventListener('click', function() {
+                // Hide the quiz
+                document.getElementById('quiz').style.display = 'none';
+                // Show the thank you message
+                document.getElementById('message').style.display = 'block';
+            });
+        </script>
+        <div class="game">
+            <h2>🐾 Play our Guess the Number Game!</h2>
+            <a href="guess-the-number.html" target="_blank"><button>Play</button></a>
+        </div>
+        <h2> 🐾  Colour your own animal!</h2>
+        <div class="coloringImages">
+            <!-- African forest elephant coloring images -->
+            <div class="colorElephant">
+                <!-- Making the coloring images downloadable -->
+                <a href="images/african-elephant(1).jpg" title="color Elephant 1" 
+                target="_blank" download="african-forest-elephant(1)">
+                    <img src="images/african-elephant(1).jpg">
+                </a>
+                <a href="images/african-elephant(2).jpg" title="color Elephant 2" 
+                target="_blank" download="african-forest-elephant(2)">
+                    <img src="images/african-elephant(2).jpg">
+                </a>
+            </div>
+            <!-- Red panda coloring images -->
+            <div class="colorRedPanda">
+                <!-- Making the coloring images downloadable -->
+                <a href="images/red-panda(1).webp" title="color Red Panda 1" target="_blank" download="red-panda(1)">
+                    <img src="images/red-panda(1).webp">
+                </a>
+                <a href="images/red-panda(2).webp" title="color Red Panda 2" target="_blank" download="red-panda(2)">
+                    <img src="images/red-panda(2).webp">
+                </a>
+            </div>
+            <!-- Turtle coloring images -->
+            <div class="colorTurtle">
+                <!-- Making the coloring images downloadable -->
+                <a href="images/turtle(1).jpg" title="color Turtle 1" target="_blank" download="turtle(1)">
+                    <img src="images/turtle(1).jpg">
+                </a>
+                <a href="images/turtle(2).jpg" title="color Turtle 2" target="_blank" download="turtle(2)">
+                    <img src="images/turtle(2).jpg">
+                </a>
+            </div>
+        </div>
+        <h2>🐾 Dive into the World of Elephants, Red Pandas, and Turtles!</h2>
+        <!-- Elephant vid 1 -->
+        <iframe width="200px" height="200px" src="https://www.youtube.com/embed/Fk3VdpuFx0Q?si=JkKtLscBneKt6k2H" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- Red panda vid 1 -->
+        <iframe width="200px" height="200px" src="https://www.youtube.com/embed/QYW5JO-2cM8?si=WAHJuvSwwSuDwrrf" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; 
+        autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- Turtles vid 1 -->
+        <iframe width="200px" height="200px" src="https://www.youtube.com/embed/xB0OodoGuUQ?si=EzDlJys9MmRyuuDc" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div id = "footer">
+        <!-- This is the footer section -->
+        <footer>
+            <!-- Company name & slogan -->
+            <div class="slogan">
+                <h3>Wildlife Awareness</h3>
+                <h4><i>"Embrace the Wild, Preserve the Future"</i></h3>
+                <button id="donate" type="button" onclick="lock()">Donate</button>
+                <!-- Javascript feature 2 - the donate button -->
+                <script>
+                    function lock() {
+                        var x = document.getElementById("donate");
+                        location.href="https://support.wwf.org.uk/donate-to-wwf";
+                    }
+                </script>
+            </div>
+            <!-- Social media buttons -->
+            <div class="social-media">
+                <a href="https://www.instagram.com/" title="instagram" target="_blank">
+                    <img src="images/instagram-logo.svg">
+                </a>
+                <a href="https://twitter.com/" title="twitter" target="_blank">
+                    <img src="images/twitter-logo.svg">
+                </a>
+            </div>
+            <!-- Contact & Other information -->
+            <div class="information">
+                <!-- Email address with icon-->
+                <img src="images/email-icon.svg" title="email" width="30px" height="30px">
+                <a href="https://www.google.com/gmail/about/" target="_blank">
+                wildlifeawareness@gmail.com</a>
+                <!-- Privacy policy -->
+                <a href="" target="_blank" style="margin-left: 900px;">Privacy policy</a>
+                <!-- Terms & Conditions -->
+                <a href="" target="_blank">Terms & Conditions</a> 
+            </div>       
+        </footer>
+    </div>
+</body>
+</html>

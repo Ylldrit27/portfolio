@@ -22,6 +22,14 @@ I'm Ylldrit Miftari, currently pursuing a degree in Computer Science. My main ar
   <li><b>Link</b>: <a href = "https://github.com/Ylldrit27/portfolio/tree/main/ConsoleApplication/src/RobotSim">Robot Simulation in a Console Application</a></li>
 </ul>
 
+### Wildlife Conservation Website – Fun Activities Page
+<ul>
+  <li><b>Description</b>: A web page with interactive activities designed to raise awareness about endangered wildlife, targeted at young users. This page aims to increase engagement and online traffic while educating users about conservation.</li>
+  <li><b>Key Concepts</b>: Human-Computer Interaction (HCI), user engagement, web development.</li>  
+  <li><b>Technologies</b>: HTML, CSS, JavaScript</li>
+  <li><b>Link</b>: <a href = "https://github.com/Ylldrit27/portfolio/tree/main/fun-activities-webpage">Fun Activities Web Page</a></li>
+</ul>
+
 ## Contact
 Feel free to connect with me for any questions or collaboration opportunities!
 <ul>

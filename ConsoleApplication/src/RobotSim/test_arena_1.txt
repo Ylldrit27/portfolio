@@ -1,0 +1,4 @@
+Arena 20 by 6 with: 
+(11, 0) facing EAST
+(17, 3) facing SOUTH
+(6, 4) facing SOUTH

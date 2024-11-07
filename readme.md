@@ -13,3 +13,9 @@ I'm Ylldrit Miftari, currently pursuing a degree in Computer Science. My main ar
   <li><b>Technologies</b>: Java, 2D arrays, file I/O.</li>
   <li><b>Link</b>: <a href = "https://github.com/Ylldrit27/portfolio/tree/main/ConsoleApplication/src/RobotSim">Robot Simulation in a Console Application</a></li>
 </ul>
+
+## Contact
+Feel free to connect with me for any questions or collaboration opportunities!
+<ul>
+  <li><b>LinkedIn</b>: <a href="https://www.linkedin.com/in/ylldritmiftari/">Ylldrit Miftari</a></li>
+</ul>

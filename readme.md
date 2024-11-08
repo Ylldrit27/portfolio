@@ -14,6 +14,14 @@ I'm Ylldrit Miftari, currently pursuing a degree in Computer Science. My main ar
   <li><b>Link</b>: <a href = "https://github.com/Ylldrit27/portfolio/tree/main/text-adventure-game">C++ Text Adventure Game</a></li>
 </ul>
 
+### MATLAB Algorithms
+<ul>
+  <li><b>Description</b>: A collection of MATLAB scripts implementing algorithms for solving complex problems, including Strassen's Algorithm for matrix multiplication and algorithms for analysing network graphs.</li>
+  <li><b>Key Concepts</b>: Algorithm optimisation, matrix operations, graph theory.</li>  
+  <li><b>Technologies</b>: MATLAB</li>
+  <li><b>Link</b>: <a href = "https://github.com/Ylldrit27/portfolio/tree/main/MATLAB">MATLAB Algorithms</a></li>
+</ul>
+
 ### Robot Simulation in a Console Application
 <ul>
   <li><b>Description</b>: A console-based simulation environment that models a robotic arena where robots interact and follow programmed paths.</li>
